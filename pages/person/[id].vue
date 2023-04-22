@@ -116,7 +116,7 @@
       <v-btn variant="text" @click="navigateTo(`/`)" v-if="!readonly"> Zurücksetzen </v-btn>
       <v-spacer></v-spacer>
       <v-btn @click="readonly = !readonly" v-if="readonly"> Bearbeiten </v-btn>
-      <v-btn @click="readonly = !readonly" v-if="!readonly"> Fertig </v-btn>
+      <v-btn @click="submit()" v-if="!readonly"> Fertig </v-btn>
     </v-card-actions>
   </v-card>
 </template>
@@ -126,6 +126,7 @@ import { getPerson } from "@/composables/api/restfull/getPerson";
 import { getGenders } from "~/composables/api/restfull/getGenders";
 import { getStatuses } from "~/composables/api/restfull/getStatuses";
 import { getStations } from "~/composables/api/restfull/getStations";
+import { updatePerson } from "~/composables/api/restfull/updatePerson";
 import { ref, reactive } from "vue";
 const { id } = await useRoute().params;
 
@@ -157,29 +158,30 @@ const rules = reactive({
 
 const readonly = ref(true);
 
-const setGender = (id) => {
+const setGender = (id: number) => {
   for (let gender of getGenders) {
     if (id === +gender.id) return gender.name;
   }
 };
 
-const setStatus = (id) => {
+const setStatus = (id: number) => {
   for (let status of getStatuses) {
     if (id === +status.id) return status.name;
   }
 };
 
-const setStation = (id) => {
+const setStation = (id: number) => {
   for (let station of getStations) {
     if (id === +station.id) return station.name;
   }
 };
 
-const changes = ($event, label) => {
-  for (let field of person) {
-    if (field === Fields) {
-    }
-  }
+const changes = (label: any, $event: any) => {
+  person[Object.keys(Fields)[Object.values(Fields).indexOf(label)]] = $event;
+};
+
+const submit = () => {
+  updatePerson(person);
 };
 </script>
 
