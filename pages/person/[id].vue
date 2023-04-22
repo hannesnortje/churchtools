@@ -13,78 +13,136 @@
         variant="filled"
         :rules="[rules.required]"
         color="deep-purple"
-        label="Vorname"
+        :label="Fields.firstName"
         style="min-height: 96px"
+        :readonly="true"
       ></v-text-field>
       <v-text-field
         v-model="person.lastName"
         variant="filled"
         color="deep-purple"
-        label="Nachname"
+        :label="Fields.lastName"
         :rules="[rules.required]"
+        :readonly="true"
       ></v-text-field>
       <v-text-field
         v-model="person.email"
         :rules="[rules.email]"
         variant="filled"
         color="deep-purple"
-        label="E-Mail-Addresse"
+        :label="Fields.email"
         type="email"
+        :readonly="true"
       ></v-text-field>
       <v-text-field
         v-model="person.phonePrivate"
         variant="filled"
         color="deep-purple"
-        label="Telefon"
+        :label="Fields.phonePrivate"
+        @update:modelValue="changes(Fields.phonePrivate, $event)"
       ></v-text-field>
       <v-text-field
         v-model="person.street"
         variant="filled"
         color="deep-purple"
-        label="Straße"
+        :label="Fields.street"
         :rules="[rules.required]"
+        @update:modelValue="changes(Fields.street, $event)"
       ></v-text-field>
       <v-text-field
         v-model="person.addressAddition"
         variant="filled"
         color="deep-purple"
-        label="AdresseZusatz"
+        :label="Fields.addressAddition"
+        @update:modelValue="changes(Fields.addressAddition, $event)"
       ></v-text-field>
       <v-text-field
         v-model="person.zip"
         variant="filled"
         color="deep-purple"
-        label="Postleitzahl"
+        :label="Fields.zip"
         :rules="[rules.required]"
+        @update:modelValue="changes(Fields.zip, $event)"
       ></v-text-field>
       <v-text-field
         v-model="person.city"
         variant="filled"
         color="deep-purple"
-        label="Stadt"
+        :label="Fields.city"
         :rules="[rules.required]"
+        @update:modelValue="changes(Fields.city, $event)"
       ></v-text-field>
       <v-text-field
         v-model="person.country"
         variant="filled"
         color="deep-purple"
-        label="Land"
+        :label="Fields.country"
         :rules="[rules.required]"
+        @update:modelValue="changes(Fields.country, $event)"
       ></v-text-field>
+      <v-select
+        :label="Fields.sexId"
+        :value="setGender(person.sexId)"
+        :items="
+          getGenders.map((item) => {
+            return item.name;
+          })
+        "
+        @update:modelValue="changes(Fields.sexId, $event)"
+      ></v-select>
+      <v-select
+        :label="Fields.statusId"
+        :value="setStatus(person.statusId)"
+        :items="
+          getStatuses.map((item) => {
+            return item.name;
+          })
+        "
+        @update:modelValue="changes(Fields.statusId, $event)"
+      ></v-select>
+      <v-select
+        :label="Fields.campusId"
+        :value="setStation(person.campusId)"
+        :items="
+          getStations.map((item) => {
+            return item.name;
+          })
+        "
+        @update:modelValue="changes(Fields.campusId, $event)"
+      ></v-select>
     </v-form>
     <v-divider></v-divider>
     <v-card-actions>
-      <v-btn variant="text" @click="$refs.form.reset()" v-if="!readonly"> Löschen </v-btn>
+      <v-btn variant="text" @click="navigateTo(`/`)" v-if="!readonly"> Zurücksetzen </v-btn>
       <v-spacer></v-spacer>
-      <v-btn color="deep-purple-accent-4"> Bearbeiten </v-btn>
+      <v-btn @click="readonly = !readonly" v-if="readonly"> Bearbeiten </v-btn>
+      <v-btn @click="readonly = !readonly" v-if="!readonly"> Fertig </v-btn>
     </v-card-actions>
   </v-card>
 </template>
 
 <script setup lang="ts">
 import { getPerson } from "@/composables/api/restfull/getPerson";
-import { ref, onMounted, reactive } from "vue";
+import { getGenders } from "~/composables/api/restfull/getGenders";
+import { getStatuses } from "~/composables/api/restfull/getStatuses";
+import { getStations } from "~/composables/api/restfull/getStations";
+import { ref, reactive } from "vue";
 const { id } = await useRoute().params;
+
+enum Fields {
+  firstName = "Vorname",
+  lastName = "Nachname",
+  email = "E-Mail-Addresse",
+  phonePrivate = "Telefon",
+  street = "Straße",
+  addressAddition = "AdresseZusatz",
+  zip = "Postleitzahl",
+  city = "Stadt",
+  country = "Land",
+  sexId = "Geschlecht",
+  statusId = "Status",
+  campusId = "Station",
+}
 
 const person = ref(getPerson(id));
 const form = ref(false);
@@ -98,6 +156,31 @@ const rules = reactive({
 });
 
 const readonly = ref(true);
+
+const setGender = (id) => {
+  for (let gender of getGenders) {
+    if (id === +gender.id) return gender.name;
+  }
+};
+
+const setStatus = (id) => {
+  for (let status of getStatuses) {
+    if (id === +status.id) return status.name;
+  }
+};
+
+const setStation = (id) => {
+  for (let station of getStations) {
+    if (id === +station.id) return station.name;
+  }
+};
+
+const changes = ($event, label) => {
+  for (let field of person) {
+    if (field === Fields) {
+    }
+  }
+};
 </script>
 
 <style scoped></style>

@@ -7,9 +7,10 @@ Once the login works correctly the changes can be made here*/
 
 import allPersons from "../../../data/persons.json" assert { type: "JSON" };
 
-export const getPerson = (id: string) => {
+export const updatePerson = (id: string, field: string, value) => {
   for (let person of allPersons.data) {
-    if (person.id === +id) return person;
+    if (person.id === +id) {
+    }
   }
   return;
 };

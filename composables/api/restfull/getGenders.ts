@@ -5,11 +5,6 @@ and put it in a json and fetch it from there.
 
 Once the login works correctly the changes can be made here*/
 
-import allPersons from "../../../data/persons.json" assert { type: "JSON" };
+import fields from "../../../data/fields.json" assert { type: "JSON" };
 
-export const getPerson = (id: string) => {
-  for (let person of allPersons.data) {
-    if (person.id === +id) return person;
-  }
-  return;
-};
+export const getGenders = fields.data[9].options;
