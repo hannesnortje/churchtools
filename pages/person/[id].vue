@@ -127,23 +127,9 @@ import { getGenders } from "~/composables/api/restfull/getGenders";
 import { getStatuses } from "~/composables/api/restfull/getStatuses";
 import { getStations } from "~/composables/api/restfull/getStations";
 import { updatePerson } from "~/composables/api/restfull/updatePerson";
+import { Fields } from "@/utils/enums";
 import { ref, reactive } from "vue";
 const { id } = await useRoute().params;
-
-enum Fields {
-  firstName = "Vorname",
-  lastName = "Nachname",
-  email = "E-Mail-Addresse",
-  phonePrivate = "Telefon",
-  street = "Straße",
-  addressAddition = "AdresseZusatz",
-  zip = "Postleitzahl",
-  city = "Stadt",
-  country = "Land",
-  sexId = "Geschlecht",
-  statusId = "Status",
-  campusId = "Station",
-}
 
 const person = ref(getPerson(id));
 const form = ref(false);
@@ -159,19 +145,19 @@ const rules = reactive({
 const readonly = ref(true);
 
 const setGender = (id: number) => {
-  for (let gender of getGenders) {
+  for (const gender of getGenders) {
     if (id === +gender.id) return gender.name;
   }
 };
 
 const setStatus = (id: number) => {
-  for (let status of getStatuses) {
+  for (const status of getStatuses) {
     if (id === +status.id) return status.name;
   }
 };
 
 const setStation = (id: number) => {
-  for (let station of getStations) {
+  for (const station of getStations) {
     if (id === +station.id) return station.name;
   }
 };
@@ -180,8 +166,16 @@ const changes = (label: any, $event: any) => {
   person[Object.keys(Fields)[Object.values(Fields).indexOf(label)]] = $event;
 };
 
+/*Persistent change should be done with the following methods executing
+the respective api method, but since the Restful is not working, I
+don't have to time to work on an alternative.*/
+
+const emit = defineEmits(["person"]); // when persistent this can be omitted
+
 const submit = () => {
-  updatePerson(person);
+  //updatePerson(person);
+  emit("person", person);
+  readonly.value = !readonly.value;
 };
 </script>
 
