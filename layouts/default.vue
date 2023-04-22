@@ -1,5 +1,9 @@
 <template>
   <div>
-    <slot />
+    <VApp>
+      <VMain>
+        <slot />
+      </VMain>
+    </VApp>
   </div>
 </template>

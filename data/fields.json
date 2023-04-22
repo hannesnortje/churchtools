@@ -1,0 +1,3263 @@
+{
+    "data": [
+      {
+        "id": -1,
+        "key": "targetGroupMemberStatusId",
+        "name": "followup.follow.groupmemberstatus",
+        "nameTranslated": "followup.follow.groupmemberstatus",
+        "column": "fu_nachfolge_gruppenteilnehmerstatus_id",
+        "shorty": "followup.follow.groupmemberstatus",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 4,
+        "length": 11,
+        "sortKey": 5,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 1,
+        "key": "title",
+        "name": "title",
+        "nameTranslated": "Title",
+        "column": "titel",
+        "shorty": "",
+        "fieldCategoryCode": "f_address",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "",
+        "secLevel": 1,
+        "length": 12,
+        "sortKey": 1,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 2,
+        "key": "firstName",
+        "name": "given.name",
+        "nameTranslated": "Name",
+        "column": "vorname",
+        "shorty": "",
+        "fieldCategoryCode": "f_address",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "&nbsp;",
+        "secLevel": 1,
+        "length": 30,
+        "sortKey": 2,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 3,
+        "key": "lastName",
+        "name": "surname",
+        "nameTranslated": "Surname",
+        "column": "name",
+        "shorty": "",
+        "fieldCategoryCode": "f_address",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 1,
+        "length": 30,
+        "sortKey": 4,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 4,
+        "key": "street",
+        "name": "street",
+        "nameTranslated": "Street",
+        "column": "strasse",
+        "shorty": "",
+        "fieldCategoryCode": "f_address",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": true,
+        "lineEnding": "<br\/>",
+        "secLevel": 3,
+        "length": 100,
+        "sortKey": 5,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 5,
+        "key": "addressAddition",
+        "name": "addition",
+        "nameTranslated": "Addition",
+        "column": "zusatz",
+        "shorty": "",
+        "fieldCategoryCode": "f_address",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 3,
+        "length": 100,
+        "sortKey": 6,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 6,
+        "key": "zip",
+        "name": "postalcode",
+        "nameTranslated": "Postal code",
+        "column": "plz",
+        "shorty": "",
+        "fieldCategoryCode": "f_address",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": true,
+        "lineEnding": "",
+        "secLevel": 2,
+        "length": 20,
+        "sortKey": 7,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 7,
+        "key": "city",
+        "name": "city",
+        "nameTranslated": "City",
+        "column": "ort",
+        "shorty": "",
+        "fieldCategoryCode": "f_address",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": true,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 40,
+        "sortKey": 8,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 8,
+        "key": "country",
+        "name": "country",
+        "nameTranslated": "Country",
+        "column": "land",
+        "shorty": "",
+        "fieldCategoryCode": "f_address",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/><br\/>",
+        "secLevel": 2,
+        "length": 30,
+        "sortKey": 9,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 9,
+        "key": "sexId",
+        "name": "sex",
+        "nameTranslated": "Gender",
+        "column": "geschlecht_no",
+        "shorty": "sex",
+        "fieldCategoryCode": "f_address",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": true,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 11,
+        "sortKey": 10,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          {
+            "id": "0",
+            "name": "unbekannt"
+          },
+          {
+            "id": "1",
+            "name": "m\u00e4nnlich"
+          },
+          {
+            "id": "2",
+            "name": "weiblich"
+          },
+          {
+            "id": "3",
+            "name": "sex.diverse"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "key": "phonePrivate",
+        "name": "phone.privat",
+        "nameTranslated": "Private phone",
+        "column": "telefonprivat",
+        "shorty": "ph.privat",
+        "fieldCategoryCode": "f_address",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": true,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 30,
+        "sortKey": 11,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 11,
+        "key": "phoneWork",
+        "name": "phone.business",
+        "nameTranslated": "Phone business",
+        "column": "telefongeschaeftlich",
+        "shorty": "ph.business",
+        "fieldCategoryCode": "f_address",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 20,
+        "sortKey": 12,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 12,
+        "key": "mobile",
+        "name": "phone.mobile",
+        "nameTranslated": "Mobile phone",
+        "column": "telefonhandy",
+        "shorty": "ph.mobile",
+        "fieldCategoryCode": "f_address",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 20,
+        "sortKey": 13,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 13,
+        "key": "fax",
+        "name": "fax",
+        "nameTranslated": "Fax",
+        "column": "fax",
+        "shorty": "fax",
+        "fieldCategoryCode": "f_address",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 3,
+        "length": 20,
+        "sortKey": 14,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 14,
+        "key": "email",
+        "name": "email",
+        "nameTranslated": "E-mail",
+        "column": "email",
+        "shorty": "email",
+        "fieldCategoryCode": "f_address",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": true,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 50,
+        "sortKey": 15,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 15,
+        "key": "cmsUserId",
+        "name": "cmsuserid",
+        "nameTranslated": "Username",
+        "column": "cmsuserid",
+        "shorty": "cmsuserid",
+        "fieldCategoryCode": "f_address",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 1,
+        "length": 50,
+        "sortKey": 16,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 16,
+        "key": "birthday",
+        "name": "date.of.birth",
+        "nameTranslated": "Date of birth",
+        "column": "geburtsdatum",
+        "shorty": "date.of.birth",
+        "fieldCategoryCode": "f_church",
+        "fieldTypeCode": "date",
+        "fieldTypeId": 3,
+        "isActive": "1",
+        "isNewPersonField": true,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 0,
+        "sortKey": 1,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 17,
+        "key": "birthName",
+        "name": "birth.name",
+        "nameTranslated": "Birth name",
+        "column": "geburtsname",
+        "shorty": "birth.name",
+        "fieldCategoryCode": "f_church",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 4,
+        "length": 30,
+        "sortKey": 2,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 18,
+        "key": "birthplace",
+        "name": "place.of.birth",
+        "nameTranslated": "Place of birth",
+        "column": "geburtsort",
+        "shorty": "place.of.birth",
+        "fieldCategoryCode": "f_church",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 4,
+        "length": 30,
+        "sortKey": 3,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 19,
+        "key": "job",
+        "name": "profession",
+        "nameTranslated": "Profession",
+        "column": "beruf",
+        "shorty": "profession",
+        "fieldCategoryCode": "f_church",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": true,
+        "lineEnding": "<br\/>",
+        "secLevel": 4,
+        "length": 50,
+        "sortKey": 4,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 20,
+        "key": "nationalityId",
+        "name": "nationality",
+        "nameTranslated": "Nationality",
+        "column": "nationalitaet_id",
+        "shorty": "nationality",
+        "fieldCategoryCode": "f_church",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": true,
+        "lineEnding": "<br\/>",
+        "secLevel": 4,
+        "length": 11,
+        "sortKey": 5,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          {
+            "id": "5",
+            "name": "Afghanistan"
+          },
+          {
+            "id": "2",
+            "name": "\u00c4gypten"
+          },
+          {
+            "id": "6",
+            "name": "Albanien"
+          },
+          {
+            "id": "7",
+            "name": "Algerien"
+          },
+          {
+            "id": "8",
+            "name": "Andorra"
+          },
+          {
+            "id": "9",
+            "name": "Angola"
+          },
+          {
+            "id": "10",
+            "name": "Antigua und Barbuda"
+          },
+          {
+            "id": "3",
+            "name": "\u00c4quatorialguinea"
+          },
+          {
+            "id": "11",
+            "name": "Argentinien"
+          },
+          {
+            "id": "12",
+            "name": "Armenien"
+          },
+          {
+            "id": "13",
+            "name": "Aserbaidschan"
+          },
+          {
+            "id": "4",
+            "name": "\u00c4thiopien"
+          },
+          {
+            "id": "14",
+            "name": "Australien"
+          },
+          {
+            "id": "15",
+            "name": "Bahamas"
+          },
+          {
+            "id": "16",
+            "name": "Bahrain"
+          },
+          {
+            "id": "17",
+            "name": "Bangladesch"
+          },
+          {
+            "id": "18",
+            "name": "Barbados"
+          },
+          {
+            "id": "19",
+            "name": "Belgien"
+          },
+          {
+            "id": "20",
+            "name": "Belize"
+          },
+          {
+            "id": "21",
+            "name": "Benin"
+          },
+          {
+            "id": "22",
+            "name": "Bhutan"
+          },
+          {
+            "id": "23",
+            "name": "Bolivien"
+          },
+          {
+            "id": "24",
+            "name": "Bosnien und Herzegowina"
+          },
+          {
+            "id": "25",
+            "name": "Botswana"
+          },
+          {
+            "id": "26",
+            "name": "Brasilien"
+          },
+          {
+            "id": "27",
+            "name": "Brunei"
+          },
+          {
+            "id": "28",
+            "name": "Bulgarien"
+          },
+          {
+            "id": "29",
+            "name": "Burkina Faso"
+          },
+          {
+            "id": "30",
+            "name": "Burundi"
+          },
+          {
+            "id": "31",
+            "name": "Chile"
+          },
+          {
+            "id": "32",
+            "name": "China, Volksrepublik"
+          },
+          {
+            "id": "33",
+            "name": "Costa Rica"
+          },
+          {
+            "id": "34",
+            "name": "D\u00e4nemark"
+          },
+          {
+            "id": "35",
+            "name": "Deutschland"
+          },
+          {
+            "id": "36",
+            "name": "Dominica"
+          },
+          {
+            "id": "37",
+            "name": "Dominikanische Republik"
+          },
+          {
+            "id": "38",
+            "name": "Dschibuti"
+          },
+          {
+            "id": "39",
+            "name": "Ecuador"
+          },
+          {
+            "id": "40",
+            "name": "El Salvador"
+          },
+          {
+            "id": "41",
+            "name": "Elfenbeink\u00fcste"
+          },
+          {
+            "id": "42",
+            "name": "Eritrea"
+          },
+          {
+            "id": "43",
+            "name": "Estland"
+          },
+          {
+            "id": "44",
+            "name": "Fidschi"
+          },
+          {
+            "id": "45",
+            "name": "Finnland"
+          },
+          {
+            "id": "46",
+            "name": "Frankreich"
+          },
+          {
+            "id": "47",
+            "name": "Gabun"
+          },
+          {
+            "id": "48",
+            "name": "Gambia"
+          },
+          {
+            "id": "49",
+            "name": "Georgien"
+          },
+          {
+            "id": "50",
+            "name": "Ghana"
+          },
+          {
+            "id": "51",
+            "name": "Grenada"
+          },
+          {
+            "id": "52",
+            "name": "Griechenland"
+          },
+          {
+            "id": "54",
+            "name": "Guatemala"
+          },
+          {
+            "id": "55",
+            "name": "Guinea"
+          },
+          {
+            "id": "56",
+            "name": "Guinea-Bissau"
+          },
+          {
+            "id": "57",
+            "name": "Guyana"
+          },
+          {
+            "id": "58",
+            "name": "Haiti"
+          },
+          {
+            "id": "59",
+            "name": "Honduras"
+          },
+          {
+            "id": "60",
+            "name": "Indien"
+          },
+          {
+            "id": "61",
+            "name": "Indonesien"
+          },
+          {
+            "id": "62",
+            "name": "Irak"
+          },
+          {
+            "id": "63",
+            "name": "Iran"
+          },
+          {
+            "id": "64",
+            "name": "Irland"
+          },
+          {
+            "id": "65",
+            "name": "Island"
+          },
+          {
+            "id": "66",
+            "name": "Israel"
+          },
+          {
+            "id": "67",
+            "name": "Italien"
+          },
+          {
+            "id": "68",
+            "name": "Jamaika"
+          },
+          {
+            "id": "69",
+            "name": "Japan"
+          },
+          {
+            "id": "70",
+            "name": "Jemen"
+          },
+          {
+            "id": "71",
+            "name": "Jordanien"
+          },
+          {
+            "id": "72",
+            "name": "Kambodscha"
+          },
+          {
+            "id": "73",
+            "name": "Kamerun"
+          },
+          {
+            "id": "74",
+            "name": "Kanada"
+          },
+          {
+            "id": "75",
+            "name": "Kap Verde"
+          },
+          {
+            "id": "76",
+            "name": "Kasachstan"
+          },
+          {
+            "id": "77",
+            "name": "Katar"
+          },
+          {
+            "id": "78",
+            "name": "Kenia"
+          },
+          {
+            "id": "79",
+            "name": "Kirgistan"
+          },
+          {
+            "id": "80",
+            "name": "Kiribati"
+          },
+          {
+            "id": "81",
+            "name": "Kolumbien"
+          },
+          {
+            "id": "82",
+            "name": "Komoren"
+          },
+          {
+            "id": "84",
+            "name": "Kongo, Demokratische Republik"
+          },
+          {
+            "id": "202",
+            "name": "Kosovo"
+          },
+          {
+            "id": "85",
+            "name": "Kroatien"
+          },
+          {
+            "id": "86",
+            "name": "Kuba"
+          },
+          {
+            "id": "87",
+            "name": "Kuwait"
+          },
+          {
+            "id": "88",
+            "name": "Laos"
+          },
+          {
+            "id": "89",
+            "name": "Lesotho"
+          },
+          {
+            "id": "90",
+            "name": "Lettland"
+          },
+          {
+            "id": "91",
+            "name": "Libanon"
+          },
+          {
+            "id": "92",
+            "name": "Liberia, Republik"
+          },
+          {
+            "id": "93",
+            "name": "Libyen"
+          },
+          {
+            "id": "94",
+            "name": "Liechtenstein"
+          },
+          {
+            "id": "95",
+            "name": "Litauen"
+          },
+          {
+            "id": "96",
+            "name": "Luxemburg"
+          },
+          {
+            "id": "97",
+            "name": "Madagaskar"
+          },
+          {
+            "id": "98",
+            "name": "Malawi"
+          },
+          {
+            "id": "99",
+            "name": "Malaysia"
+          },
+          {
+            "id": "100",
+            "name": "Malediven"
+          },
+          {
+            "id": "101",
+            "name": "Mali, Republik"
+          },
+          {
+            "id": "102",
+            "name": "Malta"
+          },
+          {
+            "id": "103",
+            "name": "Marokko"
+          },
+          {
+            "id": "104",
+            "name": "Marshallinseln"
+          },
+          {
+            "id": "105",
+            "name": "Mauretanien"
+          },
+          {
+            "id": "106",
+            "name": "Mauritius"
+          },
+          {
+            "id": "107",
+            "name": "Mazedonien"
+          },
+          {
+            "id": "108",
+            "name": "Mexiko"
+          },
+          {
+            "id": "109",
+            "name": "Mikronesien, F\u00f6derierte Staaten von"
+          },
+          {
+            "id": "110",
+            "name": "Moldawien"
+          },
+          {
+            "id": "111",
+            "name": "Monaco"
+          },
+          {
+            "id": "112",
+            "name": "Mongolei"
+          },
+          {
+            "id": "113",
+            "name": "Montenegro"
+          },
+          {
+            "id": "114",
+            "name": "Mosambik"
+          },
+          {
+            "id": "115",
+            "name": "Myanmar"
+          },
+          {
+            "id": "116",
+            "name": "Namibia"
+          },
+          {
+            "id": "117",
+            "name": "Nauru"
+          },
+          {
+            "id": "118",
+            "name": "Nepal"
+          },
+          {
+            "id": "119",
+            "name": "Neuseeland"
+          },
+          {
+            "id": "120",
+            "name": "Nicaragua"
+          },
+          {
+            "id": "121",
+            "name": "Niederlande"
+          },
+          {
+            "id": "122",
+            "name": "Niger"
+          },
+          {
+            "id": "123",
+            "name": "Nigeria"
+          },
+          {
+            "id": "124",
+            "name": "Niue"
+          },
+          {
+            "id": "125",
+            "name": "Nordkorea"
+          },
+          {
+            "id": "126",
+            "name": "Norwegen"
+          },
+          {
+            "id": "128",
+            "name": "Oman"
+          },
+          {
+            "id": "127",
+            "name": "\u00d6sterreich"
+          },
+          {
+            "id": "175",
+            "name": "Osttimor"
+          },
+          {
+            "id": "129",
+            "name": "Pakistan"
+          },
+          {
+            "id": "131",
+            "name": "Pal\u00e4stinensische Autonomiegebiete"
+          },
+          {
+            "id": "130",
+            "name": "Palau"
+          },
+          {
+            "id": "132",
+            "name": "Panama"
+          },
+          {
+            "id": "133",
+            "name": "Papua-Neuguinea"
+          },
+          {
+            "id": "134",
+            "name": "Paraguay"
+          },
+          {
+            "id": "135",
+            "name": "Peru"
+          },
+          {
+            "id": "136",
+            "name": "Philippinen"
+          },
+          {
+            "id": "137",
+            "name": "Polen"
+          },
+          {
+            "id": "138",
+            "name": "Portugal"
+          },
+          {
+            "id": "83",
+            "name": "Republik Kongo"
+          },
+          {
+            "id": "139",
+            "name": "Ruanda"
+          },
+          {
+            "id": "140",
+            "name": "Rum\u00e4nien"
+          },
+          {
+            "id": "141",
+            "name": "Russische F\u00f6deration"
+          },
+          {
+            "id": "143",
+            "name": "Salomonen"
+          },
+          {
+            "id": "144",
+            "name": "Sambia"
+          },
+          {
+            "id": "145",
+            "name": "Samoa"
+          },
+          {
+            "id": "146",
+            "name": "San Marino"
+          },
+          {
+            "id": "147",
+            "name": "S\u00e3o Tom\u00e9 und Pr\u00edncipe"
+          },
+          {
+            "id": "148",
+            "name": "Saudi-Arabien"
+          },
+          {
+            "id": "149",
+            "name": "Schweden"
+          },
+          {
+            "id": "150",
+            "name": "Schweiz"
+          },
+          {
+            "id": "151",
+            "name": "Senegal"
+          },
+          {
+            "id": "152",
+            "name": "Serbien"
+          },
+          {
+            "id": "153",
+            "name": "Seychellen"
+          },
+          {
+            "id": "154",
+            "name": "Sierra Leone"
+          },
+          {
+            "id": "155",
+            "name": "Simbabwe"
+          },
+          {
+            "id": "156",
+            "name": "Singapur"
+          },
+          {
+            "id": "157",
+            "name": "Slowakei"
+          },
+          {
+            "id": "158",
+            "name": "Slowenien"
+          },
+          {
+            "id": "159",
+            "name": "Somalia, Demokratische Republik"
+          },
+          {
+            "id": "160",
+            "name": "Spanien"
+          },
+          {
+            "id": "161",
+            "name": "Sri Lanka"
+          },
+          {
+            "id": "162",
+            "name": "St. Kitts und Nevis"
+          },
+          {
+            "id": "163",
+            "name": "St. Lucia"
+          },
+          {
+            "id": "164",
+            "name": "St. Vincent und die Grenadinen"
+          },
+          {
+            "id": "166",
+            "name": "S\u00fcdafrika"
+          },
+          {
+            "id": "165",
+            "name": "Sudan"
+          },
+          {
+            "id": "167",
+            "name": "S\u00fcdkorea"
+          },
+          {
+            "id": "168",
+            "name": "Suriname"
+          },
+          {
+            "id": "169",
+            "name": "Swasiland"
+          },
+          {
+            "id": "170",
+            "name": "Syrien"
+          },
+          {
+            "id": "171",
+            "name": "Tadschikistan"
+          },
+          {
+            "id": "172",
+            "name": "Taiwan"
+          },
+          {
+            "id": "173",
+            "name": "Tansania"
+          },
+          {
+            "id": "174",
+            "name": "Thailand"
+          },
+          {
+            "id": "176",
+            "name": "Togo"
+          },
+          {
+            "id": "177",
+            "name": "Tonga"
+          },
+          {
+            "id": "178",
+            "name": "Trinidad und Tobago"
+          },
+          {
+            "id": "179",
+            "name": "Tschad"
+          },
+          {
+            "id": "180",
+            "name": "Tschechien"
+          },
+          {
+            "id": "181",
+            "name": "Tunesien"
+          },
+          {
+            "id": "185",
+            "name": "T\u00fcrkei"
+          },
+          {
+            "id": "182",
+            "name": "Turkmenistan"
+          },
+          {
+            "id": "183",
+            "name": "Turks- und Caicosinseln"
+          },
+          {
+            "id": "184",
+            "name": "Tuvalu"
+          },
+          {
+            "id": "186",
+            "name": "Uganda"
+          },
+          {
+            "id": "187",
+            "name": "Ukraine"
+          },
+          {
+            "id": "0",
+            "name": "Unbekannt"
+          },
+          {
+            "id": "188",
+            "name": "Ungarn"
+          },
+          {
+            "id": "189",
+            "name": "Uruguay"
+          },
+          {
+            "id": "191",
+            "name": "Usbekistan"
+          },
+          {
+            "id": "192",
+            "name": "Vanuatu"
+          },
+          {
+            "id": "193",
+            "name": "Vatikanstadt"
+          },
+          {
+            "id": "194",
+            "name": "Venezuela"
+          },
+          {
+            "id": "195",
+            "name": "Vereinigte Arabische Emirate"
+          },
+          {
+            "id": "190",
+            "name": "Vereinigte Staaten von Amerika"
+          },
+          {
+            "id": "53",
+            "name": "Vereinigtes K\u00f6nigreich"
+          },
+          {
+            "id": "196",
+            "name": "Vietnam"
+          },
+          {
+            "id": "197",
+            "name": "Wei\u00dfrussland"
+          },
+          {
+            "id": "142",
+            "name": "Westsahara"
+          },
+          {
+            "id": "198",
+            "name": "Zentralafrikanische Republik"
+          },
+          {
+            "id": "199",
+            "name": "Zypern, Republik"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "key": "familyStatusId",
+        "name": "family.status",
+        "nameTranslated": "Family status",
+        "column": "familienstand_no",
+        "shorty": "family.status",
+        "fieldCategoryCode": "f_church",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 4,
+        "length": 11,
+        "sortKey": 6,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          {
+            "id": "0",
+            "name": "unbekannt"
+          },
+          {
+            "id": "1",
+            "name": "ledig"
+          },
+          {
+            "id": "2",
+            "name": "verheiratet"
+          },
+          {
+            "id": "3",
+            "name": "getrennt"
+          },
+          {
+            "id": "4",
+            "name": "geschieden"
+          },
+          {
+            "id": "5",
+            "name": "verwitwet"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "key": "weddingDate",
+        "name": "date.of.marriage",
+        "nameTranslated": "Date of marriage",
+        "column": "hochzeitsdatum",
+        "shorty": "date.of.marriage",
+        "fieldCategoryCode": "f_church",
+        "fieldTypeCode": "date",
+        "fieldTypeId": 3,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/><br\/>",
+        "secLevel": 4,
+        "length": 0,
+        "sortKey": 7,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 23,
+        "key": "firstContact",
+        "name": "first.contact",
+        "nameTranslated": "First contact",
+        "column": "erstkontakt",
+        "shorty": "first.contact",
+        "fieldCategoryCode": "f_church",
+        "fieldTypeCode": "date",
+        "fieldTypeId": 3,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 4,
+        "length": 0,
+        "sortKey": 8,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 24,
+        "key": "dateOfBelonging",
+        "name": "date.of.belonging",
+        "nameTranslated": "Date of belonging",
+        "column": "zugehoerig",
+        "shorty": "date.of.belonging",
+        "fieldCategoryCode": "f_church",
+        "fieldTypeCode": "date",
+        "fieldTypeId": 3,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 4,
+        "length": 0,
+        "sortKey": 9,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 25,
+        "key": "dateOfEntry",
+        "name": "date.of.entry",
+        "nameTranslated": "Date of entry",
+        "column": "eintrittsdatum",
+        "shorty": "date.of.entry",
+        "fieldCategoryCode": "f_church",
+        "fieldTypeCode": "date",
+        "fieldTypeId": 3,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 4,
+        "length": 0,
+        "sortKey": 10,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 26,
+        "key": "referredBy",
+        "name": "refer.from",
+        "nameTranslated": "Refer from",
+        "column": "ueberwiesenvon",
+        "shorty": "refer.from",
+        "fieldCategoryCode": "f_church",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 4,
+        "length": 30,
+        "sortKey": 11,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 27,
+        "key": "dateOfResign",
+        "name": "date.of.resign",
+        "nameTranslated": "Date of resign",
+        "column": "austrittsdatum",
+        "shorty": "date.of.resign",
+        "fieldCategoryCode": "f_church",
+        "fieldTypeCode": "date",
+        "fieldTypeId": 3,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 4,
+        "length": 0,
+        "sortKey": 12,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 28,
+        "key": "referredTo",
+        "name": "refer.to",
+        "nameTranslated": "Refer to",
+        "column": "ueberwiesennach",
+        "shorty": "refer.to",
+        "fieldCategoryCode": "f_church",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/><br\/>",
+        "secLevel": 4,
+        "length": 30,
+        "sortKey": 13,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 29,
+        "key": "dateOfBaptism",
+        "name": "date.of.baptism",
+        "nameTranslated": "Date of baptism",
+        "column": "taufdatum",
+        "shorty": "date.of.baptism",
+        "fieldCategoryCode": "f_church",
+        "fieldTypeCode": "date",
+        "fieldTypeId": 3,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 4,
+        "length": 0,
+        "sortKey": 14,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 30,
+        "key": "placeOfBaptism",
+        "name": "place.of.baptism",
+        "nameTranslated": "Place of baptism",
+        "column": "taufort",
+        "shorty": "place.of.baptism",
+        "fieldCategoryCode": "f_church",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 4,
+        "length": 50,
+        "sortKey": 15,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 31,
+        "key": "baptisedBy",
+        "name": "baptism.through",
+        "nameTranslated": "Baptized by",
+        "column": "getauftdurch",
+        "shorty": "baptism.through",
+        "fieldCategoryCode": "f_church",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 4,
+        "length": 50,
+        "sortKey": 16,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 32,
+        "key": "statusId",
+        "name": "status",
+        "nameTranslated": "Status",
+        "column": "status_id",
+        "shorty": "status",
+        "fieldCategoryCode": "f_category",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 4,
+        "length": 11,
+        "sortKey": 1,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          {
+            "id": "0",
+            "name": "Interessent"
+          },
+          {
+            "id": "1",
+            "name": "Freund"
+          },
+          {
+            "id": "3",
+            "name": "Mitglied"
+          },
+          {
+            "id": "4",
+            "name": "zu l\u00f6schen"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "key": "campusId",
+        "name": "station",
+        "nameTranslated": "Campus",
+        "column": "station_id",
+        "shorty": "station",
+        "fieldCategoryCode": "f_category",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 11,
+        "sortKey": 2,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          {
+            "id": "0",
+            "name": "Zentrale"
+          },
+          {
+            "id": "1",
+            "name": "S\u00fcd-Gr\u00fcndung"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "key": "name",
+        "name": "caption",
+        "nameTranslated": "Title",
+        "column": "bezeichnung",
+        "shorty": "caption",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 255,
+        "sortKey": 1,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 36,
+        "key": "followupTypeId",
+        "name": "followup",
+        "nameTranslated": "followup",
+        "column": "followup_typ_id",
+        "shorty": "followup",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 5,
+        "length": 11,
+        "sortKey": 3,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          {
+            "id": "1",
+            "name": "Integration Kontaktkarte"
+          },
+          {
+            "id": "2",
+            "name": "Ein Monat"
+          },
+          {
+            "id": "3",
+            "name": "Neue"
+          },
+          {
+            "id": "4",
+            "name": "Datenschutz"
+          },
+          {
+            "id": "5",
+            "name": "F\u00fchrungszeugnis angefragt"
+          },
+          {
+            "id": "6",
+            "name": "F\u00fchrungszeugnis aktiv"
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "key": "targetTypeId",
+        "name": "follow.of.followup",
+        "nameTranslated": "follow.of.followup",
+        "column": "fu_nachfolge_typ_id",
+        "shorty": "follow.of.followup",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 5,
+        "length": 11,
+        "sortKey": 4,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 38,
+        "key": "targetObjectId",
+        "name": "follow.of.followup.type",
+        "nameTranslated": "follow.of.followup.type",
+        "column": "fu_nachfolge_objekt_id",
+        "shorty": "follow.of.followup.type",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 5,
+        "length": 11,
+        "sortKey": 5,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 39,
+        "key": "dateOfFoundation",
+        "name": "date.of.foundation",
+        "nameTranslated": "date.of.foundation",
+        "column": "gruendungsdatum",
+        "shorty": "date.of.foundation",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "date",
+        "fieldTypeId": 3,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 0,
+        "sortKey": 6,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 40,
+        "key": "endDate",
+        "name": "date.of.completion",
+        "nameTranslated": "date.of.completion",
+        "column": "abschlussdatum",
+        "shorty": "date.of.completion",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "date",
+        "fieldTypeId": 3,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 0,
+        "sortKey": 7,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 41,
+        "key": "meetingTime",
+        "name": "time.of.meeting",
+        "nameTranslated": "time.of.meeting",
+        "column": "treffzeit",
+        "shorty": "time.of.meeting",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 100,
+        "sortKey": 8,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 42,
+        "key": "treffpunkt",
+        "name": "place.of.meeting",
+        "nameTranslated": "place.of.meeting",
+        "column": "treffpunkt",
+        "shorty": "place.of.meeting",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 50,
+        "sortKey": 9,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 44,
+        "key": "targetGroupId",
+        "name": "target.group",
+        "nameTranslated": "Target group",
+        "column": "targetgroup_id",
+        "shorty": "target.group",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 30,
+        "sortKey": 11,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          {
+            "id": "1",
+            "name": "everyone"
+          },
+          {
+            "id": "2",
+            "name": "men"
+          },
+          {
+            "id": "3",
+            "name": "women"
+          },
+          {
+            "id": "4",
+            "name": "singles"
+          },
+          {
+            "id": "5",
+            "name": "students"
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "key": "note",
+        "name": "description",
+        "nameTranslated": "Description",
+        "column": "notiz",
+        "shorty": "description",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "textarea",
+        "fieldTypeId": 5,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 65535,
+        "sortKey": 12,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 48,
+        "key": "inStatistic",
+        "name": "show.in.statistic",
+        "nameTranslated": "show.in.statistic",
+        "column": "instatistik_yn",
+        "shorty": "show.in.statistic",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "checkbox",
+        "fieldTypeId": 4,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 5,
+        "length": 1,
+        "sortKey": 15,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 49,
+        "key": "createWeeklyGroupMeetings",
+        "name": "maintain.weekly.meeting",
+        "nameTranslated": "maintain.weekly.meeting",
+        "column": "treffen_yn",
+        "shorty": "maintain.weekly.meeting",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "checkbox",
+        "fieldTypeId": 4,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 5,
+        "length": 1,
+        "sortKey": 16,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 50,
+        "key": "optigemId",
+        "name": "optigem.nr",
+        "nameTranslated": "Optigem-Nr",
+        "column": "optigem_nr",
+        "shorty": "optigem.nr",
+        "fieldCategoryCode": "f_address",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 5,
+        "length": 10,
+        "sortKey": 17,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 51,
+        "key": "maxMembers",
+        "name": "maximum.members",
+        "nameTranslated": "maximum.members",
+        "column": "max_teilnehmer",
+        "shorty": "maximum.members",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "number",
+        "fieldTypeId": 6,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 11,
+        "sortKey": 2,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 53,
+        "key": "isOpenForMembers",
+        "name": "anyone.can.apply.for.participation",
+        "nameTranslated": "anyone.can.apply.for.participation",
+        "column": "offen_yn",
+        "shorty": "anyone.can.apply.for.participation",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "checkbox",
+        "fieldTypeId": 4,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 5,
+        "length": 1,
+        "sortKey": 18,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 54,
+        "key": "nickname",
+        "name": "Rufname",
+        "nameTranslated": "Rufname",
+        "column": "spitzname",
+        "shorty": "",
+        "fieldCategoryCode": "f_address",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "(%)",
+        "secLevel": 1,
+        "length": 30,
+        "sortKey": 3,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 55,
+        "key": "informLeader",
+        "name": "inform.via.email.about.changes",
+        "nameTranslated": "Inform via e-mail about changes",
+        "column": "mail_an_leiter_yn",
+        "shorty": "inform.via.email.about.changes",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "checkbox",
+        "fieldTypeId": 4,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 5,
+        "length": 1,
+        "sortKey": 19,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 56,
+        "key": "groupTypeId",
+        "name": "group.type",
+        "nameTranslated": "Group type",
+        "column": "gruppentyp_id",
+        "shorty": "group.type",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 5,
+        "length": 11,
+        "sortKey": 2,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          {
+            "id": "1",
+            "name": "Kleingruppe"
+          },
+          {
+            "id": "2",
+            "name": "Dienst"
+          },
+          {
+            "id": "3",
+            "name": "Veranstaltung"
+          },
+          {
+            "id": "4",
+            "name": "Verteiler"
+          },
+          {
+            "id": "5",
+            "name": "Schl\u00fcssel"
+          },
+          {
+            "id": "6",
+            "name": "Followup"
+          }
+        ]
+      },
+      {
+        "id": 57,
+        "key": "departmentIds",
+        "name": "department",
+        "nameTranslated": "Department",
+        "column": "bereich_id",
+        "shorty": "department",
+        "fieldCategoryCode": "f_dep",
+        "fieldTypeCode": "multiselect",
+        "fieldTypeId": 7,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 12,
+        "sortKey": 1,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          {
+            "id": "1",
+            "name": "Gemeindeliste"
+          }
+        ]
+      },
+      {
+        "id": 59,
+        "key": "campusId",
+        "name": "station",
+        "nameTranslated": "Campus",
+        "column": "station_id",
+        "shorty": "station",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 12,
+        "sortKey": 2,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          {
+            "id": "0",
+            "name": "Zentrale"
+          },
+          {
+            "id": "1",
+            "name": "S\u00fcd-Gr\u00fcndung"
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "key": "groupMeetingTemplateId",
+        "name": "groupmeeting.template",
+        "nameTranslated": "groupmeeting.template",
+        "column": "gruppentreffen_template_id",
+        "shorty": "groupmeeting.template",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 3,
+        "length": 12,
+        "sortKey": 29,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          {
+            "id": "1",
+            "name": "Lowlights \/ Highlights"
+          },
+          {
+            "id": "2",
+            "name": "Gemeinschaft, Gebet, Gottes Wort"
+          }
+        ]
+      },
+      {
+        "id": 61,
+        "key": "newPersonCampusId",
+        "name": "station",
+        "nameTranslated": "Campus",
+        "column": "new_person_station_id",
+        "shorty": "station",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 3,
+        "length": 12,
+        "sortKey": 30,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          {
+            "id": "0",
+            "name": "Zentrale"
+          },
+          {
+            "id": "1",
+            "name": "S\u00fcd-Gr\u00fcndung"
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "key": "newPersonStatusId",
+        "name": "status",
+        "nameTranslated": "Status",
+        "column": "new_person_status_id",
+        "shorty": "status",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 3,
+        "length": 12,
+        "sortKey": 31,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          {
+            "id": "0",
+            "name": "Interessent"
+          },
+          {
+            "id": "1",
+            "name": "Freund"
+          },
+          {
+            "id": "3",
+            "name": "Mitglied"
+          },
+          {
+            "id": "4",
+            "name": "zu l\u00f6schen"
+          }
+        ]
+      },
+      {
+        "id": 63,
+        "key": "newPersonDepartmentId",
+        "name": "department",
+        "nameTranslated": "Department",
+        "column": "new_person_dep_id",
+        "shorty": "department",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 3,
+        "length": 12,
+        "sortKey": 32,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          {
+            "id": "1",
+            "name": "Gemeindeliste"
+          }
+        ]
+      },
+      {
+        "id": 64,
+        "key": "autoAccept",
+        "name": "group.application.needs.approval",
+        "nameTranslated": "group.application.needs.approval",
+        "column": "direktteilnehmer_yn",
+        "shorty": "group.application.needs.approval",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "checkbox",
+        "fieldTypeId": 4,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 5,
+        "length": 1,
+        "sortKey": 25,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 65,
+        "key": "weekday",
+        "name": "day.of.meeting",
+        "nameTranslated": "day.of.meeting",
+        "column": "meetingday_no",
+        "shorty": "day.of.meeting",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 3,
+        "length": 12,
+        "sortKey": 8,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          {
+            "id": 0,
+            "name": "Sunday"
+          },
+          {
+            "id": 1,
+            "name": "Monday"
+          },
+          {
+            "id": 2,
+            "name": "Tuesday"
+          },
+          {
+            "id": 3,
+            "name": "Wednesday"
+          },
+          {
+            "id": 4,
+            "name": "Thursday"
+          },
+          {
+            "id": 5,
+            "name": "Friday"
+          },
+          {
+            "id": 6,
+            "name": "Saturday"
+          }
+        ]
+      },
+      {
+        "id": 66,
+        "key": "ageGroupIds",
+        "name": "age.groups",
+        "nameTranslated": "Age groups",
+        "column": "agegroup_ids",
+        "shorty": "age.groups",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "multiselect",
+        "fieldTypeId": 7,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 3,
+        "length": 12,
+        "sortKey": 11,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          {
+            "id": "1",
+            "name": "10-12"
+          },
+          {
+            "id": "2",
+            "name": "13-19"
+          },
+          {
+            "id": "4",
+            "name": "20er"
+          },
+          {
+            "id": "5",
+            "name": "30er"
+          },
+          {
+            "id": "6",
+            "name": "40er"
+          },
+          {
+            "id": "7",
+            "name": "50er"
+          },
+          {
+            "id": "8",
+            "name": "60+"
+          },
+          {
+            "id": "9",
+            "name": "0-2"
+          },
+          {
+            "id": "10",
+            "name": "3-5"
+          },
+          {
+            "id": "11",
+            "name": "6-9"
+          }
+        ]
+      },
+      {
+        "id": 67,
+        "key": "growPathId",
+        "name": "growpath",
+        "nameTranslated": "Grow Path",
+        "column": "growpath_id",
+        "shorty": "growpath",
+        "fieldCategoryCode": "f_growpath",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 4,
+        "length": 12,
+        "sortKey": 2,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          {
+            "id": "1",
+            "name": "Willkommen"
+          },
+          {
+            "id": "2",
+            "name": "Helfer"
+          },
+          {
+            "id": "3",
+            "name": "Mitarbeiter"
+          },
+          {
+            "id": "4",
+            "name": "Leiten (Gruppe)"
+          },
+          {
+            "id": "5",
+            "name": "Leiten (Bereich)"
+          },
+          {
+            "id": "6",
+            "name": "Leiten (Vorstand)"
+          }
+        ]
+      },
+      {
+        "id": 68,
+        "key": "groupStatusId",
+        "name": "group.status",
+        "nameTranslated": "Group status",
+        "column": "groupstatus_id",
+        "shorty": "group.status",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 3,
+        "length": 12,
+        "sortKey": 2,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 69,
+        "key": "groupCategoryId",
+        "name": "groupcategory",
+        "nameTranslated": "Category",
+        "column": "groupcategory_id",
+        "shorty": "groupcategory",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 3,
+        "length": 12,
+        "sortKey": 12,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          {
+            "id": "1",
+            "name": "Sportangebot"
+          },
+          {
+            "id": "2",
+            "name": "Kleingruppe"
+          },
+          {
+            "id": "3",
+            "name": "Seminar"
+          },
+          {
+            "id": "4",
+            "name": "Gottesdienst"
+          }
+        ]
+      },
+      {
+        "id": 70,
+        "key": "sendReminderMails",
+        "name": "send.reminder.mails",
+        "nameTranslated": "Send reminder via e-mail",
+        "column": "fu_sendremindermails_yn",
+        "shorty": "send.reminder.mails",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "checkbox",
+        "fieldTypeId": 4,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 5,
+        "length": 1,
+        "sortKey": 6,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 71,
+        "key": "imageId",
+        "name": "groupimage",
+        "nameTranslated": "groupimage",
+        "column": "groupimage_id",
+        "shorty": "groupimage",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 12,
+        "sortKey": 33,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 72,
+        "key": "privacyPolicyAgreementDate",
+        "name": "privacy.policy.agreement.date",
+        "nameTranslated": "Date declaration of consent",
+        "column": "privacy_policy_agreement_date",
+        "shorty": "privacy.policy.agreement.date",
+        "fieldCategoryCode": "f_datasecurity",
+        "fieldTypeCode": "date",
+        "fieldTypeId": 3,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 5,
+        "length": 0,
+        "sortKey": 1,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 73,
+        "key": "privacyPolicyAgreementTypeId",
+        "name": "privacy.policy.agreement.wherby.long",
+        "nameTranslated": "Declaration of consent whereby",
+        "column": "privacy_policy_agreement_type_id",
+        "shorty": "privacy.policy.agreement.wherby",
+        "fieldCategoryCode": "f_datasecurity",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 5,
+        "length": 255,
+        "sortKey": 2,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          {
+            "id": "1",
+            "name": "Gruppenanmeldungsformular"
+          },
+          {
+            "id": "2",
+            "name": "Direkte Einwilligung durch Person in ChurchTools"
+          },
+          {
+            "id": "3",
+            "name": "Schriftliche Einwilligung au\u00dferhalb von ChurchTools"
+          },
+          {
+            "id": "4",
+            "name": "M\u00fcndlich beim Checkin"
+          }
+        ]
+      },
+      {
+        "id": 74,
+        "key": "privacyPolicyAgreementWhoId",
+        "name": "privacy.policy.agreement.who.long",
+        "nameTranslated": "Declaration of consent by whom",
+        "column": "privacy_policy_agreement_who_id",
+        "shorty": "privacy.policy.agreement.who",
+        "fieldCategoryCode": "f_datasecurity",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 5,
+        "length": 255,
+        "sortKey": 3,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          {
+            "id": "1",
+            "name": "Person hat selbst eingewilligt."
+          },
+          {
+            "id": "2",
+            "name": "Die Eltern haben eingewilligt."
+          },
+          {
+            "id": "10000",
+            "name": "Person, die die Gruppenanmeldung durchgef\u00fchrt hat."
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "key": "acceptedsecurity",
+        "name": "data.security.date",
+        "nameTranslated": "Data security accepted on",
+        "column": "acceptedsecurity",
+        "shorty": "data.security.date",
+        "fieldCategoryCode": "f_datasecurity",
+        "fieldTypeCode": "date",
+        "fieldTypeId": 3,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 5,
+        "length": 0,
+        "sortKey": 4,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 84,
+        "key": "GEV",
+        "name": "In GEC zum Glauben",
+        "nameTranslated": "In GEC zum Glauben",
+        "column": "GEV",
+        "shorty": "gec_glauben",
+        "fieldCategoryCode": "f_church",
+        "fieldTypeCode": "checkbox",
+        "fieldTypeId": 4,
+        "isActive": "0",
+        "isNewPersonField": false,
+        "lineEnding": "",
+        "secLevel": 4,
+        "length": 10,
+        "sortKey": 0,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 89,
+        "key": "isSystemUser",
+        "name": "user.system",
+        "nameTranslated": "System user",
+        "column": "is_system_user",
+        "shorty": "user.system",
+        "fieldCategoryCode": "f_address",
+        "fieldTypeCode": "checkbox",
+        "fieldTypeId": 4,
+        "isActive": "0",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 4,
+        "length": 1,
+        "sortKey": 100,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 92,
+        "key": "signUpHeadline",
+        "name": "sign.up.headline",
+        "nameTranslated": "Signup headline",
+        "column": "sign_up_headline",
+        "shorty": "sign.up.headline",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 255,
+        "sortKey": 1,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 95,
+        "key": "qrCodeCheckin",
+        "name": "qrcodecheckin.enable",
+        "nameTranslated": "qrcodecheckin.enable",
+        "column": "qrcodecheckin_yn",
+        "shorty": "qrcodecheckin.enable",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "checkbox",
+        "fieldTypeId": 4,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 1,
+        "length": 1,
+        "sortKey": 18,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 98,
+        "key": "allowSpouseRegistration",
+        "name": "group.allowspouseregistration",
+        "nameTranslated": "group.allowspouseregistration",
+        "column": "allow_spouse_registration",
+        "shorty": "",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "checkbox",
+        "fieldTypeId": 4,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 1,
+        "sortKey": 20,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 101,
+        "key": "allowChildRegistration",
+        "name": "group.allowchildregistration",
+        "nameTranslated": "group.allowchildregistration",
+        "column": "allow_child_registration",
+        "shorty": "",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "checkbox",
+        "fieldTypeId": 4,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 1,
+        "sortKey": 21,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 104,
+        "key": "allowSameEmailRegistration",
+        "name": "group.allowsameemailregistration",
+        "nameTranslated": "group.allowsameemailregistration",
+        "column": "allow_sameemail_registration",
+        "shorty": "",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "checkbox",
+        "fieldTypeId": 4,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 1,
+        "sortKey": 22,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 107,
+        "key": "allowOtherRegistration",
+        "name": "group.allowotherregistration",
+        "nameTranslated": "group.allowotherregistration",
+        "column": "allow_other_registration",
+        "shorty": "",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "checkbox",
+        "fieldTypeId": 4,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 1,
+        "sortKey": 23,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 108,
+        "key": "guid",
+        "name": "guid",
+        "nameTranslated": "GUID",
+        "column": "guid",
+        "shorty": "guid",
+        "fieldCategoryCode": "f_address",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 1,
+        "length": 40,
+        "sortKey": 300,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": true,
+        "isBasicInfo": "0",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 111,
+        "key": "allowWaitinglist",
+        "name": "group.allow.waitinglist",
+        "nameTranslated": "group.allow.waitinglist",
+        "column": "allow_waitinglist",
+        "shorty": "",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "checkbox",
+        "fieldTypeId": 4,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 1,
+        "sortKey": 26,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 114,
+        "key": "automaticMoveUp",
+        "name": "group.automatic_move_up",
+        "nameTranslated": "group.automatic_move_up",
+        "column": "automatic_move_up",
+        "shorty": "",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "checkbox",
+        "fieldTypeId": 4,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 1,
+        "sortKey": 27,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 115,
+        "key": "guid",
+        "name": "guid",
+        "nameTranslated": "GUID",
+        "column": "guid",
+        "shorty": "guid",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 1,
+        "length": 40,
+        "sortKey": 300,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": true,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 118,
+        "key": "waitinglistMaxPersons",
+        "name": "group.max.persons.on.waiting.list",
+        "nameTranslated": "group.max.persons.on.waiting.list",
+        "column": "waitinglist_max_persons",
+        "shorty": "",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "number",
+        "fieldTypeId": 6,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 11,
+        "sortKey": 28,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 121,
+        "key": "hideContactLeader",
+        "name": "group.hide.contact.leader",
+        "nameTranslated": "group.hide.contact.leader",
+        "column": "hide_contact_leader",
+        "shorty": "",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "checkbox",
+        "fieldTypeId": 4,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 1,
+        "sortKey": 29,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 124,
+        "key": "hideLogin",
+        "name": "group.hide.login",
+        "nameTranslated": "group.hide.login",
+        "column": "hide_login",
+        "shorty": "",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "checkbox",
+        "fieldTypeId": 4,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 2,
+        "length": 1,
+        "sortKey": 30,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 125,
+        "key": "signUpNotificationSent",
+        "name": "sign.up.notification.sent",
+        "nameTranslated": "sign.up.notification.sent",
+        "column": "signup_notification_sent",
+        "shorty": "sign.up.notification.sent",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 1,
+        "length": 255,
+        "sortKey": 1,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": true,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 128,
+        "key": "signUpNotificationSentCount",
+        "name": "sign.up.notification.sent.count",
+        "nameTranslated": "sign.up.notification.sent.count",
+        "column": "signup_notification_sent_count",
+        "shorty": "sign.up.notification.sent.count",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 1,
+        "length": 255,
+        "sortKey": 1,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": true,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 131,
+        "key": "color",
+        "name": "color",
+        "nameTranslated": "Color",
+        "column": "color",
+        "shorty": "color",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "text",
+        "fieldTypeId": 1,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 1,
+        "length": 20,
+        "sortKey": 400,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": true,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 132,
+        "key": "visibility",
+        "name": "group.visibility",
+        "nameTranslated": "Visibility",
+        "column": "visibility",
+        "shorty": "",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "radioselect",
+        "fieldTypeId": 9,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 1,
+        "length": 20,
+        "sortKey": 0,
+        "deleteOnArchive": false,
+        "nullable": false,
+        "hideInFrontend": true,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      },
+      {
+        "id": 134,
+        "key": "signUpOverrideRoleId",
+        "name": "group.field.roleaftersignup.name",
+        "nameTranslated": "group.field.roleaftersignup.name",
+        "column": "sign_up_override_role_id",
+        "shorty": "group.field.roleaftersignup.name",
+        "fieldCategoryCode": "f_group",
+        "fieldTypeCode": "select",
+        "fieldTypeId": 2,
+        "isActive": "1",
+        "isNewPersonField": false,
+        "lineEnding": "<br\/>",
+        "secLevel": 1,
+        "length": 11,
+        "sortKey": 100,
+        "deleteOnArchive": false,
+        "nullable": true,
+        "hideInFrontend": false,
+        "isBasicInfo": "1",
+        "options": [
+          
+        ]
+      }
+    ],
+    "meta": {
+      "count": 90
+    }
+  }

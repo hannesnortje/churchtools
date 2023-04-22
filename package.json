@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --port=5100",
     "generate": "nuxt generate",
     "reset": "rm -rf .nuxt node_modules .output package-lock.json && npm install",
     "preview": "nuxt preview",
@@ -20,7 +20,10 @@
     "vuetify": "^3.1.12"
   },
   "dependencies": {
-    "@churchtools/churchtools-client": "^1.3.6",
+    "@churchtools/churchtools-client": "^1.3.7",
+    "axios": "^1.3.6",
+    "axios-cookiejar-support": "^4.0.6",
+    "tough-cookie": "^4.1.2",
     "vite-plugin-vuetify": "^1.0.2"
   }
 }

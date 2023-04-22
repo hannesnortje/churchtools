@@ -1,0 +1,833 @@
+{
+    "data": [
+      {
+        "id": 3252,
+        "guid": "E3FBBA81-1632-4FCC-9AFC-E5790C2CB151",
+        "securityLevelForPerson": 5,
+        "editSecurityLevelForPerson": 5,
+        "title": "",
+        "firstName": "Karl",
+        "lastName": "Andrews der dritte",
+        "nickname": "",
+        "job": "",
+        "street": "Alsterdorfer Str. 284",
+        "addressAddition": "",
+        "zip": "22297",
+        "city": "Hamburg",
+        "country": "Deutschland",
+        "latitude": null,
+        "longitude": null,
+        "latitudeLoose": null,
+        "longitudeLoose": null,
+        "phonePrivate": "040 \/ 146906720",
+        "phoneWork": "",
+        "mobile": "0163 \/ 1515752",
+        "fax": "",
+        "birthName": "",
+        "birthday": "1960-05-04",
+        "birthplace": "",
+        "imageUrl": "",
+        "familyImageUrl": "",
+        "sexId": 2,
+        "email": "asdasd123123@church.comm",
+        "emails": [
+          {
+            "email": "asdasd123123@church.comm",
+            "isDefault": true,
+            "contactLabelId": 2
+          }
+        ],
+        "cmsUserId": "",
+        "optigemId": "193",
+        "privacyPolicyAgreement": {
+          "date": null,
+          "typeId": null,
+          "whoId": null
+        },
+        "privacyPolicyAgreementDate": null,
+        "privacyPolicyAgreementTypeId": null,
+        "privacyPolicyAgreementWhoId": null,
+        "nationalityId": 0,
+        "familyStatusId": 0,
+        "weddingDate": null,
+        "campusId": 1,
+        "statusId": 3,
+        "departmentIds": [
+          1
+        ],
+        "firstContact": "2018-02-06",
+        "dateOfBelonging": null,
+        "dateOfEntry": null,
+        "dateOfResign": null,
+        "dateOfBaptism": null,
+        "placeOfBaptism": "",
+        "baptisedBy": "",
+        "referredBy": "",
+        "referredTo": "",
+        "growPathId": null,
+        "canChat": false,
+        "invitationStatus": "not_invited",
+        "chatActive": true,
+        "isArchived": false,
+        "meta": {
+          "createdDate": "2023-04-21T16:45:52Z",
+          "createdPerson": {
+            "id": -1
+          },
+          "modifiedDate": "2023-04-21T16:59:24Z",
+          "modifiedPerson": {
+            "id": 1
+          }
+        },
+        "acceptedsecurity": null,
+        "lastLogin": null
+      },
+      {
+        "id": 3273,
+        "guid": "168319E5-33F6-48C7-B439-0B974D7F65AB",
+        "securityLevelForPerson": 5,
+        "editSecurityLevelForPerson": 5,
+        "title": "",
+        "firstName": "Karladaadsos",
+        "lastName": "Andrews der dritte",
+        "nickname": "",
+        "job": "",
+        "street": "Alsterdorfer Str. 284",
+        "addressAddition": "",
+        "zip": "22297",
+        "city": "Hamburg",
+        "country": "Deutschland",
+        "latitude": null,
+        "longitude": null,
+        "latitudeLoose": null,
+        "longitudeLoose": null,
+        "phonePrivate": "040 \/ 146906720",
+        "phoneWork": "",
+        "mobile": "0163 \/ 1515752",
+        "fax": "",
+        "birthName": "",
+        "birthday": "1960-05-04",
+        "birthplace": "",
+        "imageUrl": "",
+        "familyImageUrl": "",
+        "sexId": 2,
+        "email": "asdasd123123@church.comm",
+        "emails": [
+          {
+            "email": "asdasd123123@church.comm",
+            "isDefault": true,
+            "contactLabelId": 2
+          }
+        ],
+        "cmsUserId": "",
+        "optigemId": "193",
+        "privacyPolicyAgreement": {
+          "date": "2018-10-05",
+          "typeId": 1,
+          "whoId": 1
+        },
+        "privacyPolicyAgreementDate": "2018-10-05",
+        "privacyPolicyAgreementTypeId": 1,
+        "privacyPolicyAgreementWhoId": 1,
+        "nationalityId": 0,
+        "familyStatusId": 0,
+        "weddingDate": null,
+        "campusId": 1,
+        "statusId": 3,
+        "departmentIds": [
+          1
+        ],
+        "firstContact": "2018-02-06",
+        "dateOfBelonging": null,
+        "dateOfEntry": null,
+        "dateOfResign": null,
+        "dateOfBaptism": null,
+        "placeOfBaptism": "",
+        "baptisedBy": "",
+        "referredBy": "",
+        "referredTo": "",
+        "growPathId": null,
+        "canChat": false,
+        "invitationStatus": "not_invited",
+        "chatActive": true,
+        "isArchived": false,
+        "meta": {
+          "createdDate": "2023-04-21T16:49:32Z",
+          "createdPerson": {
+            "id": -1
+          },
+          "modifiedDate": "2023-04-21T16:49:32Z",
+          "modifiedPerson": {
+            "id": 1
+          }
+        },
+        "acceptedsecurity": null,
+        "lastLogin": null
+      },
+      {
+        "id": 3276,
+        "guid": "B7865714-7F46-45BD-B135-AB124CE1FF63",
+        "securityLevelForPerson": 5,
+        "editSecurityLevelForPerson": 5,
+        "title": "",
+        "firstName": "Karladaadsos",
+        "lastName": "Andrews der dritte",
+        "nickname": "",
+        "job": "",
+        "street": "Alsterdorfer Str. 284",
+        "addressAddition": "",
+        "zip": "22297",
+        "city": "Hamburg",
+        "country": "Deutschland",
+        "latitude": null,
+        "longitude": null,
+        "latitudeLoose": null,
+        "longitudeLoose": null,
+        "phonePrivate": "040 \/ 146906720",
+        "phoneWork": "",
+        "mobile": "0163 \/ 1515752",
+        "fax": "",
+        "birthName": "",
+        "birthday": "1960-05-04",
+        "birthplace": "",
+        "imageUrl": "",
+        "familyImageUrl": "",
+        "sexId": 2,
+        "email": "asdasd123123@church.comm",
+        "emails": [
+          {
+            "email": "asdasd123123@church.comm",
+            "isDefault": true,
+            "contactLabelId": 2
+          }
+        ],
+        "cmsUserId": "",
+        "optigemId": "193",
+        "privacyPolicyAgreement": {
+          "date": "2018-10-05",
+          "typeId": 1,
+          "whoId": 1
+        },
+        "privacyPolicyAgreementDate": "2018-10-05",
+        "privacyPolicyAgreementTypeId": 1,
+        "privacyPolicyAgreementWhoId": 1,
+        "nationalityId": 0,
+        "familyStatusId": 0,
+        "weddingDate": null,
+        "campusId": 1,
+        "statusId": 3,
+        "departmentIds": [
+          1
+        ],
+        "firstContact": "2018-02-06",
+        "dateOfBelonging": null,
+        "dateOfEntry": null,
+        "dateOfResign": null,
+        "dateOfBaptism": null,
+        "placeOfBaptism": "",
+        "baptisedBy": "",
+        "referredBy": "",
+        "referredTo": "",
+        "growPathId": null,
+        "canChat": false,
+        "invitationStatus": "not_invited",
+        "chatActive": true,
+        "isArchived": false,
+        "meta": {
+          "createdDate": "2023-04-21T16:49:39Z",
+          "createdPerson": {
+            "id": -1
+          },
+          "modifiedDate": "2023-04-21T16:49:39Z",
+          "modifiedPerson": {
+            "id": 1
+          }
+        },
+        "acceptedsecurity": null,
+        "lastLogin": null
+      },
+      {
+        "id": 3279,
+        "guid": "009CDA9A-32B8-49DC-8D6B-3457546A2F6B",
+        "securityLevelForPerson": 5,
+        "editSecurityLevelForPerson": 5,
+        "title": "",
+        "firstName": "Karladaadsos",
+        "lastName": "Andrews der dritte",
+        "nickname": "",
+        "job": "",
+        "street": "Alsterdorfer Str. 284",
+        "addressAddition": "",
+        "zip": "22297",
+        "city": "Hamburg",
+        "country": "Deutschland",
+        "latitude": null,
+        "longitude": null,
+        "latitudeLoose": null,
+        "longitudeLoose": null,
+        "phonePrivate": "040 \/ 146906720",
+        "phoneWork": "",
+        "mobile": "0163 \/ 1515752",
+        "fax": "",
+        "birthName": "",
+        "birthday": "1960-05-04",
+        "birthplace": "",
+        "imageUrl": "",
+        "familyImageUrl": "",
+        "sexId": 2,
+        "email": "asdasd123123@church.comm",
+        "emails": [
+          {
+            "email": "asdasd123123@church.comm",
+            "isDefault": true,
+            "contactLabelId": 2
+          }
+        ],
+        "cmsUserId": "",
+        "optigemId": "",
+        "privacyPolicyAgreement": {
+          "date": "2018-10-05",
+          "typeId": 1,
+          "whoId": 1
+        },
+        "privacyPolicyAgreementDate": "2018-10-05",
+        "privacyPolicyAgreementTypeId": 1,
+        "privacyPolicyAgreementWhoId": 1,
+        "nationalityId": 0,
+        "familyStatusId": 0,
+        "weddingDate": null,
+        "campusId": 1,
+        "statusId": 3,
+        "departmentIds": [
+          1
+        ],
+        "firstContact": "2018-02-06",
+        "dateOfBelonging": null,
+        "dateOfEntry": null,
+        "dateOfResign": null,
+        "dateOfBaptism": null,
+        "placeOfBaptism": "",
+        "baptisedBy": "",
+        "referredBy": "",
+        "referredTo": "",
+        "growPathId": null,
+        "canChat": false,
+        "invitationStatus": "not_invited",
+        "chatActive": true,
+        "isArchived": false,
+        "meta": {
+          "createdDate": "2023-04-21T16:49:45Z",
+          "createdPerson": {
+            "id": -1
+          },
+          "modifiedDate": "2023-04-21T16:49:45Z",
+          "modifiedPerson": {
+            "id": 1
+          }
+        },
+        "acceptedsecurity": null,
+        "lastLogin": null
+      },
+      {
+        "id": 3282,
+        "guid": "EB1E8EF2-F71A-4C08-AC37-F7CD8B8106E2",
+        "securityLevelForPerson": 5,
+        "editSecurityLevelForPerson": 5,
+        "title": "",
+        "firstName": "Karladaadsos",
+        "lastName": "Andrews der dritte",
+        "nickname": "",
+        "job": "",
+        "street": "Alsterdorfer Str. 284",
+        "addressAddition": "",
+        "zip": "22297",
+        "city": "Hamburg",
+        "country": "Deutschland",
+        "latitude": null,
+        "longitude": null,
+        "latitudeLoose": null,
+        "longitudeLoose": null,
+        "phonePrivate": "040 \/ 146906720",
+        "phoneWork": "",
+        "mobile": "0163 \/ 1515752",
+        "fax": "",
+        "birthName": "",
+        "birthday": "1960-05-04",
+        "birthplace": "",
+        "imageUrl": "",
+        "familyImageUrl": "",
+        "sexId": 2,
+        "email": "asdasd123123@church.comm",
+        "emails": [
+          {
+            "email": "asdasd123123@church.comm",
+            "isDefault": true,
+            "contactLabelId": 2
+          }
+        ],
+        "cmsUserId": "",
+        "optigemId": "",
+        "privacyPolicyAgreement": {
+          "date": "2018-10-05",
+          "typeId": 1,
+          "whoId": 1
+        },
+        "privacyPolicyAgreementDate": "2018-10-05",
+        "privacyPolicyAgreementTypeId": 1,
+        "privacyPolicyAgreementWhoId": 1,
+        "nationalityId": 0,
+        "familyStatusId": 0,
+        "weddingDate": null,
+        "campusId": 1,
+        "statusId": 3,
+        "departmentIds": [
+          1
+        ],
+        "firstContact": "2018-02-06",
+        "dateOfBelonging": null,
+        "dateOfEntry": null,
+        "dateOfResign": null,
+        "dateOfBaptism": null,
+        "placeOfBaptism": "",
+        "baptisedBy": "",
+        "referredBy": "",
+        "referredTo": "",
+        "growPathId": null,
+        "canChat": false,
+        "invitationStatus": "not_invited",
+        "chatActive": true,
+        "isArchived": false,
+        "meta": {
+          "createdDate": "2023-04-21T16:49:55Z",
+          "createdPerson": {
+            "id": -1
+          },
+          "modifiedDate": "2023-04-21T16:49:55Z",
+          "modifiedPerson": {
+            "id": 1
+          }
+        },
+        "acceptedsecurity": null,
+        "lastLogin": null
+      },
+      {
+        "id": 3285,
+        "guid": "501E7086-6FE7-4E23-A944-B5E72017093E",
+        "securityLevelForPerson": 5,
+        "editSecurityLevelForPerson": 5,
+        "title": "",
+        "firstName": "Karladaadsos",
+        "lastName": "Andrews der dritte",
+        "nickname": "",
+        "job": "",
+        "street": "Alsterdorfer Str. 284",
+        "addressAddition": "",
+        "zip": "22297",
+        "city": "Hamburg",
+        "country": "Deutschland",
+        "latitude": null,
+        "longitude": null,
+        "latitudeLoose": null,
+        "longitudeLoose": null,
+        "phonePrivate": "040 \/ 146906720",
+        "phoneWork": "",
+        "mobile": "0163 \/ 1515752",
+        "fax": "",
+        "birthName": "",
+        "birthday": "1960-05-04",
+        "birthplace": "",
+        "imageUrl": "",
+        "familyImageUrl": "",
+        "sexId": 2,
+        "email": "asdasd123123@church.comm",
+        "emails": [
+          {
+            "email": "asdasd123123@church.comm",
+            "isDefault": true,
+            "contactLabelId": 2
+          }
+        ],
+        "cmsUserId": "",
+        "optigemId": "",
+        "privacyPolicyAgreement": {
+          "date": "2018-10-05",
+          "typeId": 1,
+          "whoId": 1
+        },
+        "privacyPolicyAgreementDate": "2018-10-05",
+        "privacyPolicyAgreementTypeId": 1,
+        "privacyPolicyAgreementWhoId": 1,
+        "nationalityId": 0,
+        "familyStatusId": 0,
+        "weddingDate": null,
+        "campusId": 1,
+        "statusId": 3,
+        "departmentIds": [
+          1
+        ],
+        "firstContact": "2018-02-06",
+        "dateOfBelonging": null,
+        "dateOfEntry": null,
+        "dateOfResign": null,
+        "dateOfBaptism": null,
+        "placeOfBaptism": "",
+        "baptisedBy": "",
+        "referredBy": "",
+        "referredTo": "",
+        "growPathId": null,
+        "canChat": false,
+        "invitationStatus": "not_invited",
+        "chatActive": true,
+        "isArchived": false,
+        "meta": {
+          "createdDate": "2023-04-21T16:50:10Z",
+          "createdPerson": {
+            "id": -1
+          },
+          "modifiedDate": "2023-04-21T16:50:10Z",
+          "modifiedPerson": {
+            "id": 1
+          }
+        },
+        "acceptedsecurity": null,
+        "lastLogin": null
+      },
+      {
+        "id": 3288,
+        "guid": "7A8E2367-8EB0-4D3D-8C1C-9A46B4909F62",
+        "securityLevelForPerson": 5,
+        "editSecurityLevelForPerson": 5,
+        "title": "",
+        "firstName": "Karladaadsos",
+        "lastName": "Andrews der dritte",
+        "nickname": "",
+        "job": "",
+        "street": "Alsterdorfer Str. 284",
+        "addressAddition": "",
+        "zip": "22297",
+        "city": "Hamburg",
+        "country": "Deutschland",
+        "latitude": null,
+        "longitude": null,
+        "latitudeLoose": null,
+        "longitudeLoose": null,
+        "phonePrivate": "040 \/ 146906720",
+        "phoneWork": "",
+        "mobile": "0163 \/ 1515752",
+        "fax": "",
+        "birthName": "",
+        "birthday": "1960-05-04",
+        "birthplace": "",
+        "imageUrl": "",
+        "familyImageUrl": "",
+        "sexId": 2,
+        "email": "asdasd123123@church.comm",
+        "emails": [
+          {
+            "email": "asdasd123123@church.comm",
+            "isDefault": true,
+            "contactLabelId": 2
+          }
+        ],
+        "cmsUserId": "",
+        "optigemId": "",
+        "privacyPolicyAgreement": {
+          "date": "2018-10-05",
+          "typeId": 1,
+          "whoId": 1
+        },
+        "privacyPolicyAgreementDate": "2018-10-05",
+        "privacyPolicyAgreementTypeId": 1,
+        "privacyPolicyAgreementWhoId": 1,
+        "nationalityId": 0,
+        "familyStatusId": 0,
+        "weddingDate": null,
+        "campusId": 1,
+        "statusId": 3,
+        "departmentIds": [
+          1
+        ],
+        "firstContact": "2018-02-06",
+        "dateOfBelonging": null,
+        "dateOfEntry": null,
+        "dateOfResign": null,
+        "dateOfBaptism": null,
+        "placeOfBaptism": "",
+        "baptisedBy": "",
+        "referredBy": "",
+        "referredTo": "",
+        "growPathId": null,
+        "canChat": false,
+        "invitationStatus": "not_invited",
+        "chatActive": true,
+        "isArchived": false,
+        "meta": {
+          "createdDate": "2023-04-21T16:50:14Z",
+          "createdPerson": {
+            "id": -1
+          },
+          "modifiedDate": "2023-04-21T16:50:14Z",
+          "modifiedPerson": {
+            "id": 1
+          }
+        },
+        "acceptedsecurity": null,
+        "lastLogin": null
+      },
+      {
+        "id": 3291,
+        "guid": "BB0EC112-2E9F-4D93-9B3A-7F14186D152B",
+        "securityLevelForPerson": 5,
+        "editSecurityLevelForPerson": 5,
+        "title": "",
+        "firstName": "Karladaadsos",
+        "lastName": "Andrews der dritte",
+        "nickname": "",
+        "job": "",
+        "street": "Alsterdorfer Str. 284",
+        "addressAddition": "",
+        "zip": "22297",
+        "city": "Hamburg",
+        "country": "Deutschland",
+        "latitude": null,
+        "longitude": null,
+        "latitudeLoose": null,
+        "longitudeLoose": null,
+        "phonePrivate": "040 \/ 146906720",
+        "phoneWork": "",
+        "mobile": "0163 \/ 1515752",
+        "fax": "",
+        "birthName": "",
+        "birthday": "1960-05-04",
+        "birthplace": "",
+        "imageUrl": "",
+        "familyImageUrl": "",
+        "sexId": 2,
+        "email": "asdasd123123@church.comm",
+        "emails": [
+          {
+            "email": "asdasd123123@church.comm",
+            "isDefault": true,
+            "contactLabelId": 2
+          }
+        ],
+        "cmsUserId": "",
+        "optigemId": "",
+        "privacyPolicyAgreement": {
+          "date": "2018-10-05",
+          "typeId": 1,
+          "whoId": 1
+        },
+        "privacyPolicyAgreementDate": "2018-10-05",
+        "privacyPolicyAgreementTypeId": 1,
+        "privacyPolicyAgreementWhoId": 1,
+        "nationalityId": 0,
+        "familyStatusId": 0,
+        "weddingDate": null,
+        "campusId": 1,
+        "statusId": 3,
+        "departmentIds": [
+          1
+        ],
+        "firstContact": "2018-02-06",
+        "dateOfBelonging": null,
+        "dateOfEntry": null,
+        "dateOfResign": null,
+        "dateOfBaptism": null,
+        "placeOfBaptism": "",
+        "baptisedBy": "",
+        "referredBy": "",
+        "referredTo": "",
+        "growPathId": null,
+        "canChat": false,
+        "invitationStatus": "not_invited",
+        "chatActive": true,
+        "isArchived": false,
+        "meta": {
+          "createdDate": "2023-04-21T16:50:18Z",
+          "createdPerson": {
+            "id": -1
+          },
+          "modifiedDate": "2023-04-21T16:50:18Z",
+          "modifiedPerson": {
+            "id": 1
+          }
+        },
+        "acceptedsecurity": null,
+        "lastLogin": null
+      },
+      {
+        "id": 3294,
+        "guid": "5AE123B7-7370-4CD2-88BB-DECB7BA0099E",
+        "securityLevelForPerson": 5,
+        "editSecurityLevelForPerson": 5,
+        "title": "",
+        "firstName": "Karladaadsos",
+        "lastName": "Andrews der dritte",
+        "nickname": "",
+        "job": "",
+        "street": "Alsterdorfer Str. 284",
+        "addressAddition": "",
+        "zip": "22297",
+        "city": "Hamburg",
+        "country": "Deutschland",
+        "latitude": null,
+        "longitude": null,
+        "latitudeLoose": null,
+        "longitudeLoose": null,
+        "phonePrivate": "040 \/ 146906720",
+        "phoneWork": "",
+        "mobile": "0163 \/ 1515752",
+        "fax": "",
+        "birthName": "",
+        "birthday": "1960-05-04",
+        "birthplace": "",
+        "imageUrl": "",
+        "familyImageUrl": "",
+        "sexId": 2,
+        "email": "asdasd123123@church.comm",
+        "emails": [
+          {
+            "email": "asdasd123123@church.comm",
+            "isDefault": true,
+            "contactLabelId": 2
+          }
+        ],
+        "cmsUserId": "",
+        "optigemId": "",
+        "privacyPolicyAgreement": {
+          "date": "2018-10-05",
+          "typeId": 1,
+          "whoId": 1
+        },
+        "privacyPolicyAgreementDate": "2018-10-05",
+        "privacyPolicyAgreementTypeId": 1,
+        "privacyPolicyAgreementWhoId": 1,
+        "nationalityId": 0,
+        "familyStatusId": 0,
+        "weddingDate": null,
+        "campusId": 1,
+        "statusId": 3,
+        "departmentIds": [
+          1
+        ],
+        "firstContact": "2018-02-06",
+        "dateOfBelonging": null,
+        "dateOfEntry": null,
+        "dateOfResign": null,
+        "dateOfBaptism": null,
+        "placeOfBaptism": "",
+        "baptisedBy": "",
+        "referredBy": "",
+        "referredTo": "",
+        "growPathId": null,
+        "canChat": false,
+        "invitationStatus": "not_invited",
+        "chatActive": true,
+        "isArchived": false,
+        "meta": {
+          "createdDate": "2023-04-21T16:50:22Z",
+          "createdPerson": {
+            "id": -1
+          },
+          "modifiedDate": "2023-04-21T16:50:22Z",
+          "modifiedPerson": {
+            "id": 1
+          }
+        },
+        "acceptedsecurity": null,
+        "lastLogin": null
+      },
+      {
+        "id": 3297,
+        "guid": "065688F0-45D7-4F99-9979-C1FF6A9EA602",
+        "securityLevelForPerson": 5,
+        "editSecurityLevelForPerson": 5,
+        "title": "",
+        "firstName": "Karladaadsos",
+        "lastName": "Andrews der dritte",
+        "nickname": "",
+        "job": "",
+        "street": "Alsterdorfer Str. 284",
+        "addressAddition": "",
+        "zip": "22297",
+        "city": "Hamburg",
+        "country": "Deutschland",
+        "latitude": null,
+        "longitude": null,
+        "latitudeLoose": null,
+        "longitudeLoose": null,
+        "phonePrivate": "040 \/ 146906720",
+        "phoneWork": "",
+        "mobile": "0163 \/ 1515752",
+        "fax": "",
+        "birthName": "",
+        "birthday": "1960-05-04",
+        "birthplace": "",
+        "imageUrl": "",
+        "familyImageUrl": "",
+        "sexId": 2,
+        "email": "asdasd123123@church.comm",
+        "emails": [
+          {
+            "email": "asdasd123123@church.comm",
+            "isDefault": true,
+            "contactLabelId": 2
+          }
+        ],
+        "cmsUserId": "",
+        "optigemId": "",
+        "privacyPolicyAgreement": {
+          "date": "2018-10-05",
+          "typeId": 1,
+          "whoId": 1
+        },
+        "privacyPolicyAgreementDate": "2018-10-05",
+        "privacyPolicyAgreementTypeId": 1,
+        "privacyPolicyAgreementWhoId": 1,
+        "nationalityId": 0,
+        "familyStatusId": 0,
+        "weddingDate": null,
+        "campusId": 1,
+        "statusId": 3,
+        "departmentIds": [
+          1
+        ],
+        "firstContact": "2018-02-06",
+        "dateOfBelonging": null,
+        "dateOfEntry": null,
+        "dateOfResign": null,
+        "dateOfBaptism": null,
+        "placeOfBaptism": "",
+        "baptisedBy": "",
+        "referredBy": "",
+        "referredTo": "",
+        "growPathId": null,
+        "canChat": false,
+        "invitationStatus": "not_invited",
+        "chatActive": true,
+        "isArchived": false,
+        "meta": {
+          "createdDate": "2023-04-21T16:50:28Z",
+          "createdPerson": {
+            "id": -1
+          },
+          "modifiedDate": "2023-04-21T16:50:28Z",
+          "modifiedPerson": {
+            "id": 1
+          }
+        },
+        "acceptedsecurity": null,
+        "lastLogin": null
+      }
+    ],
+    "meta": {
+      "count": 10,
+      "pagination": {
+        "total": 649,
+        "limit": 10,
+        "current": 1,
+        "lastPage": 65
+      }
+    }
+  }
