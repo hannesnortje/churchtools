@@ -167,13 +167,13 @@ const changes = (label: any, $event: any) => {
 };
 
 /*Persistent change should be done with the following methods executing
-the respective api method, but since the Restful is not working, I
+the respective api method, but since the Restful api is not working, I
 don't have to time to work on an alternative.*/
 
-const emit = defineEmits(["person"]); // when persistent this can be omitted
+const emit = defineEmits(["person"]);
 
 const submit = () => {
-  //updatePerson(person);
+  //updatePerson(person); // for api call if worked
   emit("person", person);
   readonly.value = !readonly.value;
 };

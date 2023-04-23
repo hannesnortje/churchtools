@@ -39,9 +39,8 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
-import { getPersons } from "@/composables/api/restfull/getPersons";
+import { getPersons, paginatedPersons } from "@/composables/api/restfull/getPersons";
 import { getStatuses } from "~/composables/api/restfull/getStatuses";
-import { Fields } from "@/utils/enums";
 
 const props = defineProps({
   pageSize: {
@@ -76,15 +75,7 @@ const allCalculations = () => {
 };
 
 const filteredData = () => {
-  return persons.filter((curr) => {
-    for (const status of statuses) {
-      if (statusFilter.value) {
-        if (status.name === statusFilter.value && +status.id === curr.statusId) return true;
-      } else {
-        return true;
-      }
-    }
-  });
+  return paginatedPersons(statusFilter.value);
 };
 
 const populateAssets = () => {
@@ -117,7 +108,7 @@ const mechanics = () => {
   allCalculations();
 };
 
-//emit changes that comes in, can be omitted when persistent
+//emit changes that comes in, can be omitted when persistent with a refreshed api call
 const personData = (data) => {
   for (let x = 0; x < persons.length; x++) {
     if (persons[x].id === +data.id) {

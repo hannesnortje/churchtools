@@ -1,5 +1,7 @@
 # Church Tools
 
+![Starter Image](/public/starter.png)
+
 </details>
 
 ### Run the app
